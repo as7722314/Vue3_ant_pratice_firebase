@@ -1,0 +1,8 @@
+.header {
+    height: 300px;
+    width: 100%;
+    background-image: url(@/assets/images/phone_ec_big.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
