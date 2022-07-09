@@ -16,7 +16,6 @@ export const getDataList = async(collect) => {
     const productsCollection = collection(db, collect);
     const querySnapshot = await getDocs(productsCollection);
     const productList = []
-    let tmp = {}
     querySnapshot.forEach((doc) => {
         let data = doc.data();
         productList.push({
