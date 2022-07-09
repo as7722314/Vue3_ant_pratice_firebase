@@ -12,6 +12,9 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
+    "ant-design-vue": "^3.2.10",
+    "firebase": "^9.9.0",
+    "lodash-es": "^4.17.21",
     "vite": "^2.9.12"
   }
 }
